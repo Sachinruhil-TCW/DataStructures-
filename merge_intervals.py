@@ -17,4 +17,3 @@ def merge_intervals(intervals):
                 i += 1
         return intervals
 
-print(merge_intervals([[1,3],[2,6],[8,10],[15,18]]))

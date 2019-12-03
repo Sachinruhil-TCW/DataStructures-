@@ -1,13 +1,13 @@
 Class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+def __init__(self, x):
+    self.val = x
+    self.next = None
 
 
 def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
     head = ListNode(0)
     current = head
-    
+
     while(l1 and l2):
         if l1.val <= l2.val:
             current.next = ListNode(l1.val)
